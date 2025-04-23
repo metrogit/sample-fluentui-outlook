@@ -1,0 +1,57 @@
+/* Selection Highlight Styles */
+
+/* Base selection style */
+.selection-highlight {
+  position: relative;
+  transition: background-color 0.1s ease, border-radius 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 4px;
+}
+
+/* Light theme selection */
+:root[data-theme="light"] .selection-highlight.selected {
+  background-color: rgba(0, 120, 212, 0.15) !important;
+  box-shadow: inset 3px 0 0 0 #0078d4, 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+:root[data-theme="light"] .selection-highlight:hover:not(.selected) {
+  background-color: rgba(0, 0, 0, 0.06) !important;
+  border-radius: 4px;
+}
+
+:root[data-theme="light"] .selection-highlight:active:not(.selected) {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+  border-radius: 4px;
+}
+
+/* Dark theme selection */
+:root[data-theme="dark"] .selection-highlight.selected {
+  background-color: rgba(76, 194, 255, 0.2) !important;
+  box-shadow: inset 3px 0 0 0 #4cc2ff, 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+:root[data-theme="dark"] .selection-highlight:hover:not(.selected) {
+  background-color: rgba(255, 255, 255, 0.06) !important; 
+  border-radius: 4px;
+}
+
+:root[data-theme="dark"] .selection-highlight:active:not(.selected) {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border-radius: 4px;
+}
+
+/* Focus styles */
+.selection-highlight:focus-visible {
+  outline: 2px solid var(--selection-focus-color, #0078d4);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+:root[data-theme="light"] {
+  --selection-focus-color: #0078d4;
+}
+
+:root[data-theme="dark"] {
+  --selection-focus-color: #4cc2ff;
+} 

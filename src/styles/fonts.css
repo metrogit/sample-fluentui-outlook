@@ -1,0 +1,36 @@
+/* Segoe UI Web Fonts */
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'),
+       url('https://fonts.cdnfonts.com/css/segoe-ui-4') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'),
+       url('https://fonts.cdnfonts.com/css/segoe-ui-4') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'),
+       url('https://fonts.cdnfonts.com/css/segoe-ui-4') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('Segoe UI'),
+       url('https://fonts.cdnfonts.com/css/segoe-ui-4') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+} 
