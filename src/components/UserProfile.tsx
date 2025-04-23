@@ -44,7 +44,7 @@ const UserProfile: React.FC = () => {
         iconProps: { iconName: 'SignOut' }
       }
     ],
-    onItemClick: (ev, item) => {
+    onItemClick: (_, item) => {
       setShowPersonaMenu(false);
       // Handle menu item clicks here
       if (item?.key === 'logout') {

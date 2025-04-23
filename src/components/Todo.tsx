@@ -7,7 +7,6 @@ import {
   Dropdown,
   IDropdownOption,
   Stack,
-  StackItem,
   Label,
   DatePicker,
   PanelType,
@@ -17,7 +16,6 @@ import {
   IDropdownStyles,
   mergeStyleSets,
   AnimationClassNames,
-  Theme,
   useTheme,
 } from '@fluentui/react';
 
